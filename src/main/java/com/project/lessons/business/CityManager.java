@@ -28,18 +28,24 @@ public class CityManager implements  ICityService{
     @Override
     @Transactional
     public void add(City city) {
-
+this.cityDal.add(city);
     }
 
     @Override
     @Transactional
     public void update(City city) {
-
+this.cityDal.update(city);
     }
 
     @Override
     @Transactional
     public void delete(City city) {
+this.cityDal.delete(city);
+    }
 
+    @Override
+    @Transactional
+    public City getByID(int id) {
+        return this.cityDal.getByID(id);
     }
 }
