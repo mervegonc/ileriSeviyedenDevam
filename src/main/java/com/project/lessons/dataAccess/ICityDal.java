@@ -9,4 +9,5 @@ public interface ICityDal {
     void add (City city);
     void update(City city);
     void delete(City city);
+    City getByID(int id);
 }
