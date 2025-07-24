@@ -1,4 +1,4 @@
-package com.project.lessons.entities.dataAccess;
+package com.project.lessons.dataAccess;
 
 import com.project.lessons.entities.City;
 import jakarta.persistence.EntityManager;
